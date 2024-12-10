@@ -20,10 +20,15 @@ Script for cloning repo and building dunfell QEMU Image: **setup_yocto_build.sh*
 
 **Useful docker commands:**
 `docker-compose down`  # Stop and remove the container
+
 `docker-compose build` # Build the container
+
 `docker-compose up --build -d`  # Rebuild and start the container
+
 `docker exec -it ubuntu-container bash` # Enter the container
+
 (bash) `dpkg -l | grep -E "gawk|git|texinfo|python3|xz-utils|file"`   Check installed packages 
+
 (bash) `ssh root@localhost -p 2222`
 
 ## Container for Jenkins
